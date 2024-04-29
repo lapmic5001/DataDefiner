@@ -88,15 +88,6 @@ function commander(cmd) {
     case "whoami":
       loopLines(whoami, "color2 margin", 80);
       break;
-    case "gamer_data_gamermikefun":
-      loopLines(gamer_data_gamermikefun, "color2 margin", 80);
-      break;
-    case "nuke_launch":
-      addLine("Admin Not Detected", "color2", 80);
-      setTimeout(function() {
-        window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
-      }, 1000); 
-      break;
     case "video":
       addLine("Opening YouTube...", "color2", 80);
       newTab(youtube);
@@ -116,6 +107,9 @@ function commander(cmd) {
       break;
     case "projects":
       loopLines(projects, "color2 margin", 80);
+      break;
+    case "links":
+      loopLines(links, "color2 margin", 80);
       break;
     case "password":
       addLine("<span class=\"inherit\"> Lol! You're joking, right? You\'re gonna have to try harder than that!ðŸ˜‚</span>", "error", 100);
@@ -158,6 +152,18 @@ function commander(cmd) {
     case "github":
       addLine("Opening GitHub...", "color2", 0);
       newTab(github);
+      break;
+    case "link-xMX34":
+      addLine("Opening GitHub...", "color2", 0);
+      newTab(xMX34);
+      break;
+    case "link-fqsz7":
+      addLine("Opening GitHub...", "color2", 0);
+      newTab(fqsz7);
+      break;
+    case "link-hoBF7":
+      addLine("Opening GitHub...", "color2", 0);
+      newTab(hoBF7);
       break;
     default:
       addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);

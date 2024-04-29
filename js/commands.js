@@ -64,11 +64,12 @@ help = [
   '<span class="command">email</span>          Do not email me',
   '<span class="command">clear</span>          Clear terminal',
   '<span class="command">banner</span>         Display the header',
+  '<span class="command">links</span>          Display some special commands',
   "<br>",
 ];
 
 banner = [
-  '<span class="index">ForrestKnight (FK) Not A Corporation. All knights reserved.</span>',
+  '<span class="index">lapmic5001</span>',
   "   ______                                      _________                              _                   __  ", 
   " .' ___  |                                    |  _   _  |                            (_)                 [  |  ",
   "/ .'   \_|  ,--.   _ .--..--.  .---.  _ .--.  |_/ | | \_|.---.  _ .--.  _ .--..--.   __   _ .--.   ,--.   | |  ",
@@ -80,29 +81,14 @@ banner = [
   "<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
 ];
 
-gamer_data_gamermikefun = [
-"<br>",
-"Retrieving Data For GamerMikeFun",
-"...",
-"Latest Operation Completed",
-"...",
-"Operation Aerial Ace",
-"...",
-"Remaining Operations",
-"...",
-"Operation Air Support",
-"Operation Air Superiority",
-"<br>"
-];
+//my vars <3
+var xMX34 = "https://shorturl.at/xMX34"
+var fqsz7 = "https://shorturl.at/fqsz7"
+var hoBF7 = "https://shorturl.at/hoBF7"
 
-nuke_launch = [
-  "<br>",
-  '<span class="command">nuke_launch_code_203948752</span>           Only use if you\'re admin',
-  "<br>"
-];
+links = [
+  '<span class="command">link-xMX34</span>          Vortice Copy [404d]',
+  '<span class="command">link-fqsz7</span>          My Nuke Launch Software',
+  '<span class="command">link-hoBF7</span>          This Website...',
 
-nuke_launch_code_203948752 = [
-  "<br>",
-  "14 Gigaton Nuclear Atomizer (circa 1969) Launched at ******, ******",
-  "<br>"
 ]
