@@ -153,18 +153,24 @@ function commander(cmd) {
       addLine("Opening GitHub...", "color2", 0);
       newTab(github);
       break;
+
+      //my commands <3
+
+
     case "link-xMX34":
-      addLine("Opening GitHub...", "color2", 0);
+      addLine("Opening xMX34...", "color2", 0);
       newTab(xMX34);
       break;
     case "link-fqsz7":
-      addLine("Opening GitHub...", "color2", 0);
+      addLine("Opening fqsz7...", "color2", 0);
       newTab(fqsz7);
       break;
     case "link-hoBF7":
-      addLine("Opening GitHub...", "color2", 0);
+      addLine("Opening hoBF7...", "color2", 0);
       newTab(hoBF7);
       break;
+
+
     default:
       addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
       break;
